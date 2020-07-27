@@ -1,0 +1,98 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BDM{\etalchar{+}}19}
+
+\bibitem[BBBM19]{BBBM19}
+J.S. Balakrishnan, A.~Besser, F.~Bianchi, and J.S. M{\"u}ller.
+\newblock Explicit quadratic {C}habauty over number fields.
+\newblock {\em ArXiv Preprint}, arXiv:1910.04653, 2019.
+
+\bibitem[BD18]{BD18a}
+Jennifer~S Balakrishnan and Netan Dogra.
+\newblock Quadratic chabauty and rational points i: p-adic heights.
+\newblock {\em Duke Math. J.}, 2018.
+
+\bibitem[BD19]{BD19}
+Jennifer~S Balakrishnan and Netan Dogra.
+\newblock An effective chabauty-kim theorem.
+\newblock {\em Compositio Math.}, 2019.
+
+\bibitem[BDM{\etalchar{+}}19]{balakrishnan2019}
+Jennifer~S Balakrishnan, Netan Dogra, J~Steffen M{\"u}ller, Jan Tuitman, and
+  Jan Vonk.
+\newblock Explicit {C}habauty---{K}im for the split {C}artan modular curve of
+  level 13.
+\newblock {\em Ann. of Math. (2)}, 189(3):885--944, 2019.
+
+\bibitem[Cha41]{chab41}
+C.~Chabauty.
+\newblock Sur les points rationels des courbes alg\'{e}briques de genre
+  sup{\'e}rieur {\`a} l'unit\'{e}.
+\newblock {\em C.R. Acad. Sci.}, 212:882--884, 1941.
+
+\bibitem[Col94]{coleman}
+Robert~F. Coleman.
+\newblock A {$p$}-adic {S}himura isomorphism and {$p$}-adic periods of modular
+  forms.
+\newblock In {\em {$p$}-adic monodromy and the {B}irch and {S}winnerton-{D}yer
+  conjecture ({B}oston, {MA}, 1991)}, volume 165 of {\em Contemp. Math.}, pages
+  21--51. Amer. Math. Soc., Providence, RI, 1994.
+
+\bibitem[Dog19]{Dogra19}
+Netan Dogra.
+\newblock Unlikely intersections and the {C}habauty-{K}im method over number
+  fields.
+\newblock Arxiv Preprint arXiv:1903.05032, 2019.
+
+\bibitem[EL19]{EL19}
+B.~Edixhoven and G.~Lido.
+\newblock Geometric quadratic {C}habauty.
+\newblock {\em ArXiv Preprint}, arXiv:1910.10752, 2019.
+
+\bibitem[EvdGM]{EGM}
+B.~Edixhoven, G.~van~der Geer, and B.~Moonen.
+\newblock {\em Abelian Varieties}.
+\newblock Book Project. Available on Ben Moonen's Website.
+
+\bibitem[Gro72]{SGA7}
+A~Grothendieck.
+\newblock {\em S\'eminaire de G\'eom\'etrie Alg\'ebrique du Bois Marie (SGA7)},
+  volume~1.
+\newblock 1972.
+
+\bibitem[Haz78]{hazewinkel}
+Michiel Hazewinkel.
+\newblock {\em Formal groups and applications, volume 78 of}, volume~78.
+\newblock Academic Press, Inc., New York, 1978.
+
+\bibitem[Hon70]{honda}
+Taira Honda.
+\newblock On the theory of commutative formal groups.
+\newblock {\em Journal of the Mathematical Society of Japan}, 22(2):213--246,
+  1970.
+
+\bibitem[Kat80]{katz1980galois}
+Nicholas~M Katz.
+\newblock Galois properties of torsion points on abelian varieties.
+\newblock {\em Invent. Math.}, 62(3):481--502, 1980.
+
+\bibitem[Min05]{Kim05}
+Kim Minhyong.
+\newblock The motivic fundamental group of $p_1 − \{0, 1, \infty\}$.
+\newblock {\em Invent. Math.}, 2005.
+
+\bibitem[Min09]{Kim09}
+Kim Minhyong.
+\newblock The unipotent albanese map and selmer varieties for curves.
+\newblock {\em Publ. RIMS}, 2009.
+
+\bibitem[Sik13]{siksek}
+Samir Siksek.
+\newblock Explicit {C}habauty over number fields.
+\newblock {\em Algebra Number Theory}, 7(4):765--793, 2013.
+
+\bibitem[{Sta}20]{stacks}
+The {Stacks Project Authors}.
+\newblock Stacks project.
+\newblock available online at~\url{http://stacks.math.columbia.edu}, 2020.
+
+\end{thebibliography}

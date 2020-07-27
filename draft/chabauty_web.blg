@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: chabauty_web.aux
+The style file: alpha.bst
+Database file #1: chabauty.bib
+Warning--empty year in EGM
+Warning--empty publisher in SGA7
+You've used 17 entries,
+            2543 wiz_defined-function locations,
+            664 strings with 6596 characters,
+and the built_in function-call counts, 5781 in all, are:
+= -- 575
+> -- 236
+< -- 15
++ -- 78
+- -- 74
+* -- 386
+:= -- 980
+add.period$ -- 53
+call.type$ -- 17
+change.case$ -- 94
+chr.to.int$ -- 17
+cite$ -- 19
+duplicate$ -- 249
+empty$ -- 426
+format.name$ -- 101
+if$ -- 1155
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 18
+newline$ -- 89
+num.names$ -- 51
+pop$ -- 92
+preamble$ -- 1
+purify$ -- 114
+quote$ -- 0
+skip$ -- 197
+stack$ -- 0
+substring$ -- 272
+swap$ -- 27
+text.length$ -- 15
+text.prefix$ -- 11
+top$ -- 0
+type$ -- 124
+warning$ -- 2
+while$ -- 53
+width$ -- 20
+write$ -- 219
+(There were 2 warnings)

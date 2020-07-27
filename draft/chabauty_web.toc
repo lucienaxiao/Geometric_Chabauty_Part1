@@ -1,0 +1,37 @@
+\select@language {english}
+\contentsline {section}{\tocsection {}{1}{Introduction}}{1}{section.2}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Chabauty--Coleman}}{1}{subsection.3}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Quadratic Chabauty}}{2}{subsection.4}
+\contentsline {subsection}{\tocsubsection {}{1.3}{Quadratic Chabauty over number fields}}{2}{subsection.5}
+\contentsline {subsection}{\tocsubsection {}{1.4}{Main result}}{3}{subsection.6}
+\contentsline {subsection}{\tocsubsection {}{1.5}{Overview of the approach}}{3}{subsection.11}
+\contentsline {subsection}{\tocsubsection {}{1.6}{Outline}}{4}{subsection.16}
+\contentsline {subsection}{\tocsubsection {}{}{Acknowledgements}}{5}{section*.17}
+\contentsline {subsection}{\tocsubsection {}{}{Notation}}{5}{section*.18}
+\contentsline {section}{\tocsection {}{2}{The Poincar\'e torsor}}{5}{section.19}
+\contentsline {subsection}{\tocsubsection {}{2.1}{The Poincar\'e torsor}}{5}{subsection.20}
+\contentsline {subsection}{\tocsubsection {}{2.2}{The Poincar\'e torsor as a ${\mathbb {G}_m}$-biextension}}{6}{subsection.21}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{$\bullet $ Partial composition $+_1$}}{6}{section*.22}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{$\bullet $ Partial composition $+_2$}}{6}{section*.25}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{$\bullet $ Compatibility}}{6}{section*.27}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Spread out}}{7}{subsection.31}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Integral points on the Poincar\'e torsor}}{8}{subsection.34}
+\contentsline {subsection}{\tocsubsection {}{2.5}{Trivialization of the Poincar\'e torsor}}{9}{subsection.37}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.1}{Trivialization over $C_K$}}{9}{subsubsection.38}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.2}{Construction over $\mathcal {O}_K$}}{11}{subsubsection.47}
+\contentsline {subsubsection}{\tocsubsubsection {}{2.5.3}{The lift to $\mathbf {T}$}}{12}{subsubsection.55}
+\contentsline {section}{\tocsection {}{3}{The main theorem}}{13}{section.61}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Revisiting the strategy}}{14}{subsection.65}
+\contentsline {subsection}{\tocsubsection {}{3.2}{The key technical result}}{15}{subsection.69}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Geometric quadratic Chabauty condition}}{16}{subsection.77}
+\contentsline {section}{\tocsection {}{4}{$p$-adic interpolation}}{17}{section.81}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Parametrization of rational points in $\mathbf {T}$}}{18}{subsection.82}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.1}{Construction of $D$}}{18}{subsubsection.84}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.2}{Construction of $E$}}{19}{subsubsection.85}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.1.3}{Construction of $E'$}}{20}{subsubsection.89}
+\contentsline {subsection}{\tocsubsection {}{4.2}{$p$-adic interpolation}}{22}{subsection.98}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.1}{Formal geometry}}{22}{subsubsection.99}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.2}{The case of group schemes}}{25}{subsubsection.109}
+\contentsline {subsubsection}{\tocsubsubsection {}{4.2.3}{The $p$-adic interpolation}}{27}{subsubsection.121}
+\contentsline {section}{\tocsection {}{5}{Bounding the rational points}}{28}{section.122}
+\contentsline {section}{\tocsection {}{}{References}}{30}{section*.128}
