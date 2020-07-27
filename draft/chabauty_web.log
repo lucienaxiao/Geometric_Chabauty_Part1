@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUL 2020 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 JUL 2020 22:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -982,20 +982,20 @@ s; reported on input line 372.
 \tf@toc=\write7
 \openout7 = `chabauty_web.toc'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 398.
+ [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 400.
 
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 398.
- [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 400.
+
+[2]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 438.
- [3] [4] [5]
-[6] [7]
-Overfull \hbox (2.5705pt too wide) in paragraph at lines 721--722
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 440.
+ [3] [4] [5] [6] [7]
+Overfull \hbox (2.5705pt too wide) in paragraph at lines 723--724
 [][]\OT1/cmr/bx/n/10.95 Proposition 2.1. []\OT1/cmr/m/it/10.95 The Poincar^^Se 
 tor-sor $\OML/cmm/m/it/10.95 P[]$ \OT1/cmr/m/it/10.95 ex-tends uniquely to a bi
 ex-ten-sion $\OT1/cmr/bx/n/10.95 P[]$ \OT1/cmr/m/it/10.95 over $\OT1/cmr/m/n/10
@@ -1004,37 +1004,37 @@ ex-ten-sion $\OT1/cmr/bx/n/10.95 P[]$ \OT1/cmr/m/it/10.95 over $\OT1/cmr/m/n/10
  []
 
 [8] [9] [10]
-LaTeX Font Info:    Try loading font information for U+euf on input line 907.
+LaTeX Font Info:    Try loading font information for U+euf on input line 909.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
 [11] [12] [13] [14] [15] [16]
-Overfull \hbox (2.5644pt too wide) in paragraph at lines 1241--1242
+Overfull \hbox (2.5644pt too wide) in paragraph at lines 1243--1244
 []\OT1/cmr/m/n/10.95 In the re-cent work of [[][]BBBM19[][]], the au-thors ex-t
 end the method of qua-dratic Chabauty
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1329.
+(hyperref)                removing `math shift' on input line 1331.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1329.
+(hyperref)                removing `math shift' on input line 1331.
 
 [17]
 
-LaTeX Warning: Command \O invalid in math mode on input line 1342.
+LaTeX Warning: Command \O invalid in math mode on input line 1344.
 
 
-Overfull \hbox (12.09584pt too wide) in paragraph at lines 1344--1345
+Overfull \hbox (12.09584pt too wide) in paragraph at lines 1346--1347
 []\OT1/cmr/m/n/10.95 For reader's con-ve-nience, we re-mark that the points de-
 fined above and the set $\OT1/cmr/bx/n/10.95 T\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n
 /10.95 O[]\OT1/cmr/m/n/10.95 )[]$
  []
 
 [18] [19] [20] [21] [22] [23] [24] [25] [26]
-Overfull \hbox (8.55237pt too wide) in paragraph at lines 1696--1697
+Overfull \hbox (8.55237pt too wide) in paragraph at lines 1698--1699
 \OMS/cmsy/m/n/10.95 O[]$\OT1/cmr/m/it/10.95 . Let $\OML/cmm/m/it/10.95 y \OMS/c
 msy/m/n/10.95 2 \OML/cmm/m/it/10.95 Y\OT1/cmr/m/n/10.95 ([])$ \OT1/cmr/m/it/10.
 95 be a point. Then the map $\U/msb/m/n/10.95 Z \OMS/cmsy/m/n/10.95 ^^B \OML/cm
@@ -1045,7 +1045,7 @@ m/m/it/10.95 z; g\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 7!
  []
 
 
-Overfull \hbox (13.99663pt too wide) in paragraph at lines 1701--1702
+Overfull \hbox (13.99663pt too wide) in paragraph at lines 1703--1704
 []\OT1/cmr/m/n/10.95 As in ([][]3.2[][]), a point $\OML/cmm/m/it/10.95 x \OMS/c
 msy/m/n/10.95 2 \OML/cmm/m/it/10.95 X\OT1/cmr/m/n/10.95 ([])$ is given by an $\
 OML/cmm/m/it/10.95 s$\OT1/cmr/m/n/10.95 -tuple $\OML/cmm/m/it/10.95 x[] \OMS/cm
@@ -1056,7 +1056,7 @@ t/10.95 ; [] ; x[] \OMS/cmsy/m/n/10.95 2
  []
 
 [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1806--1807
+Underfull \hbox (badness 10000) in paragraph at lines 1808--1809
 
  []
 
@@ -1065,11 +1065,11 @@ Missing character: There is no â in font cmr9!
 Missing character: There is no ˆ in font cmr9!
 Missing character: There is no ’ in font cmr9!
 ) [30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1853.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1853.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1855.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1855.
  (./chabauty_web.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1853.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1853.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1855.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1855.
 
 Package rerunfilecheck Info: File `chabauty_web.out' has not changed.
 (rerunfilecheck)             Checksum: 9E4AC6F3F8E69C19EC0084D5A98A6147;341.
@@ -1077,7 +1077,7 @@ Package rerunfilecheck Info: File `chabauty_web.out' has not changed.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1853.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1855.
  ) 
 Here is how much of TeX's memory you used:
  25204 strings out of 493014
@@ -1125,7 +1125,7 @@ pe1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on chabauty_web.pdf (30 pages, 524001 bytes).
+Output written on chabauty_web.pdf (30 pages, 524228 bytes).
 PDF statistics:
  641 PDF objects out of 1000 (max. 8388607)
  571 compressed objects within 6 object streams
