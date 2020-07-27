@@ -982,19 +982,19 @@ s; reported on input line 372.
 \tf@toc=\write7
 \openout7 = `chabauty_web.toc'.
 
- [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 400.
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 400.
-
-[2]
+ [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 440.
- [3] [4] [5] [6] [7]
+ [3] [4] [5]
+[6] [7]
 Overfull \hbox (2.5705pt too wide) in paragraph at lines 723--724
 [][]\OT1/cmr/bx/n/10.95 Proposition 2.1. []\OT1/cmr/m/it/10.95 The Poincar^^Se 
 tor-sor $\OML/cmm/m/it/10.95 P[]$ \OT1/cmr/m/it/10.95 ex-tends uniquely to a bi
@@ -1125,7 +1125,7 @@ pe1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on chabauty_web.pdf (30 pages, 524228 bytes).
+Output written on chabauty_web.pdf (30 pages, 524001 bytes).
 PDF statistics:
  641 PDF objects out of 1000 (max. 8388607)
  571 compressed objects within 6 object streams

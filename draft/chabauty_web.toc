@@ -13,8 +13,8 @@
 \contentsline {subsection}{\tocsubsection {}{2.2}{The Poincar\'e torsor as a ${\mathbb {G}_m}$-biextension}}{6}{subsection.21}
 \contentsline {subsubsection}{\tocsubsubsection {}{}{$\bullet $ Partial composition $+_1$}}{6}{section*.22}
 \contentsline {subsubsection}{\tocsubsubsection {}{}{$\bullet $ Partial composition $+_2$}}{6}{section*.25}
-\contentsline {subsubsection}{\tocsubsubsection {}{}{$\bullet $ Compatibility}}{7}{section*.27}
-\contentsline {subsection}{\tocsubsection {}{2.3}{Spread out}}{8}{subsection.31}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{$\bullet $ Compatibility}}{6}{section*.27}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Spread out}}{7}{subsection.31}
 \contentsline {subsection}{\tocsubsection {}{2.4}{Integral points on the Poincar\'e torsor}}{8}{subsection.34}
 \contentsline {subsection}{\tocsubsection {}{2.5}{Trivialization of the Poincar\'e torsor}}{9}{subsection.37}
 \contentsline {subsubsection}{\tocsubsubsection {}{2.5.1}{Trivialization over $C_K$}}{9}{subsubsection.38}
