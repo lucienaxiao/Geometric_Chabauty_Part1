@@ -394,10 +394,10 @@ C(\Q) \arrow[r] \arrow[d] & C(\Q_p)  \arrow[d] \arrow[rd, "\int"] \\
 J(\Q) \arrow[r] & J (\Q_p)   \arrow[r, "\log"] & H^0 (C_{\Q_p}, \Omega^1)^{\vee}.
 \end{tikzcd}
 \]
-The Chabauty condition $r \ge g - 1$ guarantees that the closure $Z : = \overline{J(\Q)}^p$ of $J(\Q) \subset J (\Q_p)$ with respect to the $p$-adic topology has positive codimension. In particular, there exists a nontrivial differential form $\omega$ which vanishes on $Z$. Roughly, $\omega$ is locally given by a $p$-adic power series and has only finitely many zeroes on each residue disk of $C(\Q_p)$. Therefore, the intersection $J(\Q) \cap C(\Q_p)$, thus $C(\Q)$, is finite. Moreover, the computation of $C(\Q)$ amounts to computing these power series to sufficient $p$-adic precision on each residue disk.  
+The Chabauty condition $r \ge g - 1$ guarantees that the closure $Z : = \overline{J(\Q)}^p$ of $J(\Q) \subset J (\Q_p)$ with respect to the $p$-adic topology has positive codimension. In particular, there exists a nontrivial differential form $\omega$ that vanishes on $Z$. Roughly, $\omega$ is locally given by a $p$-adic power series and has only finitely many zeroes on each residue disk of $C(\Q_p)$. Therefore, the intersection $J(\Q) \cap C(\Q_p)$, hence $C(\Q)$, is finite. Moreover, the computation of $C(\Q)$ amounts to computing these power series to sufficient $p$-adic precision on each residue disk.  
 
 \subsection{Quadratic Chabauty}
-The fascinating program initiated by Kim (see \cite{Kim05, Kim09}) aims to relax the Chabauty condition by considering non-abelian variants of the objects in \S \ref{ss:CC_method}. To this end, we first reinterpret the diagram above using the Bloch--Kato selmer groups $H^1_f(\Q, V)$ (resp. $H^1_{f} ( {\Q_p}, V)$) in place of $J(\Q)$ (resp. $J(\Q_p)$) via the Kummer maps, where $V := H^1_{\text{\'et}}(C_{\overline \Q}, \Q_p)^\vee$ is the $p$-adic \'etale cohomology of $C$. The logarithm map above is essentially the inverse of the Bloch--Kato exponential 
+The fascinating program initiated by Kim (see \cite{Kim05, Kim09}) aims to relax the Chabauty condition by considering non-abelian variants of the objects in \S \ref{ss:CC_method}. To this end, we first reinterpret the diagram above using the Bloch--Kato Selmer groups $H^1_f(\Q, V)$ (resp. $H^1_{f} ( {\Q_p}, V)$) in place of $J(\Q)$ (resp. $J(\Q_p)$) via the Kummer maps, where $V := H^1_{\text{\'et}}(C_{\overline \Q}, \Q_p)^\vee$ is the $p$-adic \'etale cohomology of $C$. The logarithm map above is essentially the inverse of the Bloch--Kato exponential 
 $$ H^0 (C_{\Q_p}, \Omega^1)^\vee \cong \textup{D}_{\textup{dR}} (V)/\textup{D}^+_{\textup{dR}} (V) \xrightarrow{\:\: \text{ exp } \:\:} H^1_f (\Q_p, V).$$
 Next, we replace $V$ by certain pro-unipotent quotients $U_n$ of the \'etale fundamental group $\pi_1^{\text{\'et}} (C_{\overline \Q})_{\Q_p}$, one for each $n \ge 1$, which again carries a continuous action by $\textup{Gal}_{\Q}$. Kim defines a certain Selmer subgroup $\textup{Sel}(U_n) \subset H^1_f (\Q, U_n)$, and upgrades the previous diagram to 
 \[
@@ -411,7 +411,7 @@ The intersection $J(\Q) \cap C(\Q_p)$ in the Chabauty--Coleman method is now rep
 $$ C(\Q_p)_n : = j_{n, p}^{-1} \big(\textup{loc}_p (\textup{Sel}(U_n))\big)  $$
 that contains $C(\Q)$. For sufficiently large $n$, Kim conjectures that $C(\Q_p)_n$ is finite, and even coincides with $C(\Q)$. The first instances of Kim's program have been carried out quite successively by Balakrishnan and her collaborators. In particular, for the quadratic case where $n = 2$, if the Mordell--Weil rank $r$ satisfies $r \le g + \rho - 2$ where $\rho$ is the rank of the N\'eron--Severi group of $J$, then $C(\Q_p)_2$ is finite and can often be explicitly determined (see \cite{BD18a, BD19} and references therein).  This method has been successfully applied to determine rational points on the ``cursed curve'' in \cite{balakrishnan2019}, which finishes the classification of non-CM elliptic curves over $\Q$ of split Cartan type. 
 
-Recently, a different, less cohomological but probably more direct approach to quadratic Chabauty has been found by Edixhoven--Lido. Their idea is to consider a certain $\Gm$-torsor $T$ over the Jacobian instead of the Selmer variety $\textup{Sel}(U_2)$. Their method is expected to work under the same quadratic Chabauty condition $r \le g+\rho - 2$, but has the advantage of avoiding the consideration of iterated Coleman integrals and the analysis of certain complicated $p$-adic heights. In fact, this method is rather geometric and elementary, and even eliminates the language of (non-abelian) $p$-adic Hodge theory used by Kim. 
+Recently, Edixhoven--Lido \cite{EL19} found a different, less cohomological but probably more direct approach to quadratic Chabauty. Their idea is to consider a certain $\Gm$-torsor $T$ over the Jacobian instead of the Selmer variety $\textup{Sel}(U_2)$. Their method is expected to work under the same quadratic Chabauty condition $r \le g+\rho - 2$, but has the advantage of avoiding the consideration of iterated Coleman integrals and the analysis of certain complicated $p$-adic heights. In fact, this method is rather geometric and elementary, and even eliminates the language of (non-abelian) $p$-adic Hodge theory used by Kim. 
 
 \subsection{Quadratic Chabauty over number fields} \label{ss:other_work_K}
 On a different direction, a natural question is how to generalize the Chabauty--Coleman method and its non-abelian variants to more general number fields $K$. 
@@ -447,7 +447,7 @@ As is the case of the methods of Chabauty--Coleman and Chabauty--Kim, the nature
 
 In other words, we shall construct a certain $\Gm^{\rho-1}$-torsor $\TT$ over the $\J$, the latter being the N\'eron model of $J_K$. % over $\oh_K$. This way, over each $\oh_K$-point of $\J$, we have introduced $\Gm^{\rho - 1} (\oh_K)= (\oh_K^\times)^{\rho- 1}$ worth of $\oh_K$-points. 
 %For notational simplification, let us assume that $K$ is a quadratic extension of $\Q$ and $p$ an inert prime. 
-%The idea is then to carefully pick a certain finite cover of (the smooth locus of) $\CC$ by $\U_i$, each of which admits a lift to the torsor $\TT$  %\[ \begin{tikzcd}  & \TT \arrow[d] \\ \U_i \arrow[ru, hook, "\tilde j_b^i"]  \arrow[r, hook, "j_b"] & \J \end{tikzcd} \]
+%The idea is then to carefully pick a certain finite cover of (the smooth locus of) $\CC$ by $\U_i$, each of which admits a lift to the torsor $\TT$  %\[ \begin{tikzcd}  & \TT \arrow[d] \\ \U_i \arrow[ru, hook, "\tilde j_b^i"]  \arrow[r, hook, "j_b"] & \J \end{tikzcd} \].
 The idea is then to carefully lift the Abel--Jacobi map $j_b: \CC \ra \J$ to the torsor $\TT$
 \[
 \begin{tikzcd}[row sep = 1em]  & \TT \arrow[d] \\ \CC \arrow[ru, "\tilde j_b"]  \arrow[r, hook, "j_b"] & \J \end{tikzcd} 
@@ -473,7 +473,7 @@ Let $p$ be a prime of good reduction for $C_K$, then the intersection $\Y \cap \
 \end{mainconj} 
 
 \begin{mainqz} \label{question:intro}
-For a given curve $C_K$, does there always exist a prime $p$ such that the ring $\overline A$ as in Theorem \ref{thm:intro_main} is finite dimensional over $\F_p$.
+For a given curve $C_K$, does there always exist a prime $p$ such that the ring $\overline A$ as in Theorem \ref{thm:intro_main} is finite dimensional over $\F_p$?
 \end{mainqz}
 
 %(see also Theorem \ref{thm:main_rough_form} for the meaning of the subscript $i$) is finite dimensional over $\F_p$ for each $i$. 
@@ -491,7 +491,7 @@ In the end of this introduction let us briefly outline the content of each secti
 
 \subsection*{Acknowledgements}
 
-This project was initiated during the Arizona Winter School in March, 2020 and was proposed to us by Bas Edixhoven. We wish to thank the organizers of the conference for making this collaboration possible. We are grateful to Bas Edixhoven and Guido Lido for offering their insights and answering many of our questions regarding their paper. We thank Jan Vonk for many helpful discussions during the project.   
+This project was initiated during the Arizona Winter School in March, 2020 and was proposed to us by Bas Edixhoven. We wish to thank the organizers of the conference for making this collaboration possible. We are grateful to Bas Edixhoven and Guido Lido for offering their insights and answering many of our questions regarding their paper. We thank Jan Vonk for many helpful discussions during the project. L.X. Xiao gratefully acknowledges the support of the David and Barbara Groce fund.  
 
 
 
@@ -513,7 +513,7 @@ For the convenience of the reader we provide a list of notations used in the pap
 \item $\J^\vee$ is the N\'eron model of $J_K^\vee$ over $\oh_K$.
 \item $\Jo$ is the fiber-wise connected component of $0$ of $\J^\vee$.
 \item $\mathbf{P}^\times\lra \J\times \Jo$ is the unique biextension of $\J$ and $\Jo$ by $\G_m$ whose base change to $K$ is the Poincar\'e torsor.
-\item $j_b : C_K\lra J_K$ is the Abel-Jacobi map associated to a choice of point $b\in C_K(K)$.
+\item $j_b : C_K\lra J_K$ is the Abel--Jacobi map associated to a choice of point $b\in C_K(K)$.
 \item $r=\rank_{\Z} J_K(K)$ is the Mordell--Weil rank over $K$.
 \item $\rho=\rank_{\Z} \NS_{J_K/K}(K)$ is the rank of the N\'eron--Severi group of $J_K$ over $K$.
 \end{itemize}
@@ -540,9 +540,9 @@ In this section we recall some background on algebraic geometry necessary for th
 \color{black}
 
 First we recall that, given a line bundle $\mathscr{L}$ on an arbitrary scheme $X$, its associated $\Gm$-torsor is $\mathscr{L}^\times = \textbf{Isom}_X (\oh_X, \mathscr L)$, which is equipped with a natural free and transitive  action of $\Gm$. Concretely, $\mathscr{L}^\times$ is (locally) obtained by deleting the zero section of $\mathscr L$. %The association $\mathscr L  \mapsto \mathscr L^\times$ induces a bijection between (the isomorphism classes of) line bundles and $\Gm$-torsors. 
-Note that $\mathscr L^\times$ is Zariski locally trivial, in particular it is represented by a scheme over $X$, which we again denote by $\mathscr L^\times$ by slightly abusing notations. 
+Note that $\mathscr L^\times$ is Zariski locally trivial. In particular, it is represented by a scheme over $X$, which we again denote by $\mathscr L^\times$ by slightly abusing notations. 
 
-The most relevant example for this paper is the Poincar\'e torsor for the Jacobian of a curve, which we now discuss. As in the introduction, we let $C_K$ be a smooth proper geometrically connected curve of genus $g\geq 2$ defined over $K$ and $J_K$ be its Jacobian. The dual abelian variety of $J_K$ is  $J_K^\vee$ and comes equipped with a canonical principal polarization $\lambda : J_K\overset{\sim}{\lra} J_K^\vee$ by translating the theta divisor. 
+The most relevant example for this paper is the Poincar\'e torsor for the Jacobian of a curve, which we now discuss. As in the introduction, we let $C_K$ be a smooth proper geometrically connected curve of genus $g\geq 2$ defined over $K$ and let $J_K$ be its Jacobian. The dual abelian variety of $J_K$ is  $J_K^\vee$ and comes equipped with a canonical principal polarization $\lambda : J_K\overset{\sim}{\lra} J_K^\vee$ by translating the theta divisor. 
 Let $P_K$ denote the Poicar\'e bundle on $J_K\times J_K^\vee$, which carries a canonical birigidification with respect to the identity sections of $J_K$ and $J_K^\vee$. More precisely, $P_K$ is canonically trivialized over $\{0 \}\times J_K^\vee$ and $J_K\times \{ 0 \}$ and these trivializations are compatible on $\{0 \}\times\{0 \}$. The Poincar\'e torsor $P_K^\times$ is the $\G_m$-torsor on $J_K\times J_K^\vee$ associated to $P_K$. As above, we again denote by $P_K^\times$ the scheme represented by the Poincar\'e torsor and  denote by $j_K : P_K^\times \lra J_K\times J_K^\vee$ the structural morphism.
 %Recall from \S \ref{S:PicTors} that it is the scheme over $J_K\times J_K^\vee$ which represents the functor $\mathbf{Isom}_{J_K\times J_K^\vee}(\oh_{J_K\times J_K^\vee}, P_K)$. 
 %\begin{equation}\label{def:PoinTors}
@@ -605,7 +605,7 @@ Under this (canonical) isomorphism the tensor product  $\alpha_1 \otimes \alpha_
     $$j_K(z_\alpha) = (x_1, y_1), \quad j_K(z_\beta) = (x_1, y_2), \quad j_K(z_\gamma) = (x_2, y_1), \quad j_K(z_\delta) = (x_2, y_2)$$
      for some $S$-points $x_1, x_2\in J_K(S)$ and $y_1, y_2\in J_K^\vee(S)$. Then
     \begin{equation}
-        (z_\alpha +_2 z_\beta)+_1 (z_\gamma +_2 z_\delta)=(z_\alpha+_1 z_\gamma)+_2 (z_\beta +_1 z_\delta)
+        (z_\alpha +_2 z_\beta)+_1 (z_\gamma +_2 z_\delta)=(z_\alpha+_1 z_\gamma)+_2 (z_\beta +_1 z_\delta).
     \end{equation}
    % for all $x\in (p, q)^* P_{K}^\times(S), y\in (p, q')^* P_{K}^\times(S), z\in (p', q)^* P_{K}^\times(S)$ and $t\in (p', q')^* P_{K}^\times(S)$. (Here, $(p, q)^* P_K^\times$ is the $\G_{m, S}$-torsor over $S$ obtained from $P_K^\times$ by pull-back via $(p, q) : S\lra J_K \times J_K^\vee$). 
 We summarize this compatibility in the following picture for the convenience of the reader. 
@@ -702,7 +702,7 @@ and similarly for $+_1$.
 
 
 
-\subsection{Spread out}\label{s:spread}
+\subsection{Spreading out}\label{s:spread}
 
 As will become apparent, in the method of geometric quadratic Chabauty it is crucial to spread out the geometry over $\oh_K$. Roughly speaking, one wants to work with finitely generated $\Z$-modules, and $\G_m(\oh_K)=\oh_K^\times$  is a finitely generated $\Z$-module of rank $\delta=r_1+r_2-1$ while $\G_m(K)=K^\times$ has infinite rank. 
 
@@ -754,7 +754,7 @@ The goal of this subsection is to lift certain integral points on $\J \times \Jo
 \end{equation}
 Lifting the point $(x, y)$ to $\P^\times$ amounts to finding a section of the torsor $(x, y)^* \P^\times \ra \spec \oh_K$. 
 
-Note that, in the case $K=\Q$, all $\Gm$-torsors are trivial over $\spec \Z$ and admit a section over $\Z$, unique up to $\G_m(\Z)=\{ \pm 1 \}$. Thus a lift of the integral point $(x, y)$ to $\P^\times$ always exits. 
+Note that, in the case $K=\Q$, all $\Gm$-torsors are trivial over $\spec \Z$ and admit a section over $\Z$, unique up to $\G_m(\Z)=\{ \pm 1 \}$. Thus a lift of the integral point $(x, y)$ to $\P^\times$ always exists. 
 %\begin{tikzcd}[bend angle = 20] (x, y)^* P^\times\arrow{r}\arrow{d}   & P^\times  \arrow{d} \\   \spec \Z \arrow[bend left]{u}{s} \arrow{r}{(x, y)} \arrow[dashrightarrow]{ru}    & J\times J^{\vee, 0}. \end{tikzcd}
  In the case of a general number field $K$, it is not always possible to lift an $\oh_K$-point $(x, y)$ of $\J\times \Jo$ to $\P^\times$ when the class number $h$ of $K$ is non-trivial. However, the previous argument carries over to $\oh_K$-points of the form $(x, h\cdot y)$. More precisely, we have 
 
@@ -805,7 +805,7 @@ Next, let $\Hombf(J_K, J_K^\vee)^{+} \subset \Hombf(J_K, J_K^\vee)$ denote the c
 $$
     \varphi : \Pic_{J_K/K}\lra \Hombf(J_K, J_K^\vee)^+ %\qquad [\sL]\mapsto \varphi_{\sL}
 $$
-defined by sending the class of a line bundle $L$ to the map $\varphi_L$, which maps a closed point $x\in J_K \mapsto  [\tr_x^* L\otimes L^{-1}]$ where $\tr_x : J_K\lra J_K$ denotes translation by $x$. The kernel of $\varphi$ is equal to $\Pic^0_{J_K/K}=J_K^\vee$ and the map $\varphi$ induces an isomorphism of $K$-group schemes \cite[Corollary 11.3]{EGM}
+defined by sending the class of a line bundle $L$ to the map $\varphi_L$, which maps a closed point $x\in J_K$ to $[\tr_x^* L\otimes L^{-1}],$ where $\tr_x : J_K\lra J_K$ denotes the translation by $x$. The kernel of $\varphi$ is equal to $\Pic^0_{J_K/K}=J_K^\vee$ and the map $\varphi$ induces an isomorphism of $K$-group schemes \cite[Corollary 11.3]{EGM}
 \begin{equation}\label{map:phitilde}
     \tilde{\varphi} : \NS_{J_K/K}\overset{\sim}{\lra} \Hombf(J_K, J_K^\vee)^+.
 \end{equation}
@@ -818,11 +818,11 @@ $$ %(which is equal to minus the trace of $\lambda^{-1}\circ 2f$ acting on $H_1(
 \end{definition}
 
 \begin{proposition}\label{prop:trivtorsor}
-For all $f\in \Hom(J_K, J_K^\vee)_0^+$, there exists a unique element $c_f\in J_K^\vee(K)$ with the property that the following $\G_m$-torsor over $C_K$
+For all $f\in \Hom(J_K, J_K^\vee)_0^+$, there exists a unique element $c_f\in J_K^\vee(K)$ with the property that the $\G_m$-torsor
 $$
 j_b^*(\id, \tr_{c_f}\circ f)^* P_K^\times
 $$ 
-is trivial. Here $(\id, \tr_{c_f} \circ f)$ denotes the map $J_K \xrightarrow{(\id, \tr_{c_f} \circ f)} J_K \times J_K^\vee$. 
+over $C_K$ is trivial. Here $(\id, \tr_{c_f} \circ f)$ denotes the map $J_K \xrightarrow{(\id, \tr_{c_f} \circ f)} J_K \times J_K^\vee$. 
 In particular, for all $n\in\Z_{\ge 1}$, its $n^\text{th}$ power $j_b^*(\id, n\cdot \circ \tr_{c_f}\circ f)^* P_K^\times$ is also trivial. 
 \end{proposition}
 
@@ -874,7 +874,7 @@ This proves the proposition.
 \end{proof}
 
 
-The group $\NS_{J_K/K}(K)$ is a finitely generated free $\Z$-module whose rank is denote by $\rho$ (the Picard number of $J_K$). The kernel 
+The group $\NS_{J_K/K}(K)$ is a finitely generated free $\Z$-module whose rank is denoted by $\rho$ (the Picard number of $J_K$). The kernel 
 $$\ker (j_{b, \NS}^*: \NS_{J_K/K} (K) \ra \Z)$$ is a free $\Z$-module of rank $\rho-1$, and so is the group $\Hom(J_K, J_K^\vee)_0^+$.
 
 \begin{notation} \label{notation:f_i} 
@@ -916,7 +916,7 @@ The integer $m$ is chosen so that the image of this map lies in $\J\times \Jo$.
 Taking the product over $i=1, \ldots, \rho-1$, we obtain the $\oh_K$-morphism
 \begin{align*} 
     \alpha & =(\id, ({hm\cdot} \circ \tr_{\underline{c}} \circ \underline{f})) \\
-    & :=(\id, ({hm\cdot} \circ \tr_{c_i} \circ f_i)_{i=1}^{\rho-1}) : \J \lra \J\times (\Jo)^{\rho-1}
+    & :=(\id, ({hm\cdot} \circ \tr_{c_i} \circ f_i)_{i=1}^{\rho-1}) : \J \lra \J\times (\Jo)^{\rho-1}.
 \end{align*}
 Consider the map $\P^\times \rightarrow \J \times \Jo \rightarrow \J$ defined as the composition of the structure map $j$ with the first projection. Using this morphism, we form the $(\rho-1)$-fold self-product 
 $$
@@ -965,7 +965,7 @@ Let $X$ be a smooth irreducible affine curve over a finite field $k$ that admits
  
 %The claim is standard. Find a reference and delete the proof... %Surely this can be found in EGA somewhere... 
  
-\begin{proof} Let $A = \Gamma(X, \oh_X)$ be the ring of sections on $X$, which  admits a map $A \rightarrow k$ of $k$-algebras supplied by the rational point. Let $k' = \{\alpha \in k(X) | \alpha \textup{ is algebraic over } k\}$ be field of constants of $X$ over $k$, as $X$ is normal we have $k' \subset A$ which forces $k' = k$. This is equivalent to $X$ being geometrically irreducible. 
+\begin{proof} Let $A = \Gamma(X, \oh_X)$ be the ring of sections on $X$, which admits a map $A \rightarrow k$ of $k$-algebras supplied by the rational point. Let $k' = \{\alpha \in k(X) | \alpha \textup{ is algebraic over } k\}$ be the field of constants of $X$ over $k$, as $X$ is normal, we have $k' \subset A$, which forces $k' = k$. This is equivalent to $X$ being geometrically irreducible. 
 \end{proof}
 
 
@@ -991,7 +991,7 @@ Let $\U$ be an open subscheme of $\CC^{\sm}$ obtained as in Construction \ref{co
 \begin{proof}
 The restriction of the torsor
 $$(\id, m\cdot \tr_{c_i} \circ f_i)^* \P^\times$$ to $\U$ gives an element of $\Pic(\U)$, whose pull-back to $C_K$ equals 
-$$j_{b}^*\alpha_{m, i, K}^*P_K^{\times}$$ and is trivial by Proposition \ref{prop:trivtorsor}. In other words, the torsor $(\id, m\cdot \circ \tr_{c_i} \circ f_i)^* \P^\times$  when restricted to $\U$ gives rise to an element in the kernel 
+$$j_{b}^*\alpha_{m, i, K}^*P_K^{\times}$$ and is trivial by Proposition \ref{prop:trivtorsor}. In other words, the torsor $(\id, m\cdot \circ \tr_{c_i} \circ f_i)^* \P^\times$, when restricted to $\U$, gives rise to an element in the kernel 
 $$\ker (\Pic (\U) \lra \Pic (C_K)).$$
 Now note that we have an isomorphism of line bundles (corresponding to $\G_{m, \J}$-torsors)  
 \begin{equation}
@@ -1008,12 +1008,12 @@ Let $\U$ be an open subscheme of $\CC^{\sm}$ as above. Then $\oh_{\U}(\U)=\oh_K$
 \end{lemma}
 
 \begin{proof}
-By construction $\U$ is regular thus locally factorial, so we do not distinguish the class of line bundles and Weil divisors.  First let $D$ be a vertical divisor on $\U$, namely it does not intersect the generic fiber $C_K$. We claim that $h D = 0$ in $\Pic (\U)$. As every irreducible vertical divisor on $\U$ is of the form $\U_\mathfrak{p}$ for some prime $\mathfrak{p}$ of $\oh_K$,  we may write $h D$ as 
-$\sum_{\mathfrak{p}} h n_\mathfrak{p} U_{\F_\mathfrak{p}},$ where $n_{\mathfrak{p}}=0$ for almost all $\mathfrak{p}$. Clearly $D$ is the image of the divisor $\sum_{\mathfrak{p}} h n_{\mathfrak p}$ along the natural map $\Pic (\oh_K) \ra \Pic (\U)$, which is $0$ since $\Pic (\oh_K)$ has size $h$. Now let $D$ be a general element of $\Pic(\U)$ (which we view as a Weil divisor on $\U)$ that lies in the kernel $\ker (\Pic (\U) \rightarrow \Pic (C_K))$. In other words, the restriction of $D$ to $C_K$ is a principal divisor $D_K = \textup{div} (f)$ for some $f$ in the function field of $C_K$. Then $\textup{div} (f)$ extends to a principal divisor on $\U$, which differs from $D$ only by a vertical divisor. The lemma thus follows.  
+By construction, $\U$ is regular and thus locally factorial, so we do not distinguish between the class of line bundles and Weil divisors.  First let $D$ be a vertical divisor on $\U$; namely, it does not intersect the generic fiber $C_K$. We claim that $h D = 0$ in $\Pic (\U)$. As every irreducible vertical divisor on $\U$ is of the form $\U_\mathfrak{p}$ for some prime $\mathfrak{p}$ of $\oh_K$, we may write $h D$ as 
+$\sum_{\mathfrak{p}} h n_\mathfrak{p} U_{\F_\mathfrak{p}},$ where $n_{\mathfrak{p}}=0$ for almost all $\mathfrak{p}$. Clearly, $D$ is the image of the divisor $\sum_{\mathfrak{p}} h n_{\mathfrak p}$ along the natural map $\Pic (\oh_K) \ra \Pic (\U)$, which is $0$ since $\Pic (\oh_K)$ has size $h$. Now let $D$ be a general element of $\Pic(\U)$ (which we view as a Weil divisor on $\U)$ that lies in the kernel $\ker (\Pic (\U) \rightarrow \Pic (C_K))$. In other words, the restriction of $D$ to $C_K$ is a principal divisor $D_K = \textup{div} (f)$ for some $f$ in the function field of $C_K$. Then $\textup{div} (f)$ extends to a principal divisor on $\U$, which differs from $D$ only by a vertical divisor. The lemma thus follows.  
 \end{proof}
 
 \begin{remark}
-When $h = 1$ the lemma simply says that the restriction $\Pic (\U) \rightarrow \Pic (C_K) $ is injective. This map is of course not in general injective when $h\neq 1$.  Indeed, in the case it suffices to take $D=U_{\mathfrak{p}}\in \Div(\U)$ where $\mathfrak{p}$ is a non-principal prime ideal of $\oh_K$.  
+When $h = 1$, the lemma simply says that the restriction $\Pic (\U) \rightarrow \Pic (C_K) $ is injective. This map is of course not in general injective when $h\neq 1$.  Indeed, in that case it suffices to take $D=U_{\mathfrak{p}}\in \Div(\U)$ where $\mathfrak{p}$ is a non-principal prime ideal of $\oh_K$.  
 \end{remark}
 
 
@@ -1072,7 +1072,7 @@ The reason to consider $\oh_{K, p}$ (instead of $\oh_{K, \mathfrak p}$ for a pri
   
 
 \subsection{Revisiting the strategy}
-Let $\U$ be an open subscheme of $\CC^{\sm}$ obtained in Construction \ref{cons:U}. Let $u$ be an element in the finite set $\U(\overline{\oh_{K, p}})$, and let
+Let $\U$ be an open subscheme of $\CC^{\sm}$ as obtained in Construction \ref{cons:U}. Let $u$ be an element in the finite set $\U(\overline{\oh_{K, p}})$, and let
 $$t:=\tilde{j}_b^{U}(u)\in \TT(\overline{\oh_{K, p}})$$ 
 be its image in $\TT$. Note that $\CC^{\sm}(\oh_K)$ is the disjoint union of $\U(\oh_K)$ for the finitely many choices of $\U$'s (Remark \ref{remark:U}), and each $\U(\oh_K)$ is the disjoint union of finitely many ``residue disks" $\U(\oh_K)_u$. Thus, for our purposes, it suffices to bound the size $\U(\oh_K)_u$ for each $\U$ and each point $u \in \U(\overline{\oh_{K, p}})$.  
 %There is a natural map $U(\oh_K)\lra U(\oh_{K,p})$ arising from the inclusions $\oh_K\hookrightarrow \oh_{K, \mathfrak{p}_i}$. Let $U(\oh_K)_u$ denote the preimage under this map of $U(\oh_{K, p})_u$. 
@@ -1229,7 +1229,7 @@ We say that a curve $C_K$ of genus $g$ over a number field $K$ satisfies the  {\
 the inequality (\ref{eq:chabbound}) holds. 
 \end{definition}
 
-The term geometric distinguishes our condition from the {\it Chabauty condition} (resp. {\it quadratic Chabauty condition}) associated to the classical Chabauty (resp. quadratic Chabauty) method. We briefly compare these conditions below. 
+The term ``geometric'' distinguishes our condition from the {\it Chabauty condition} (resp. {\it quadratic Chabauty condition}) associated to the classical Chabauty (resp. quadratic Chabauty) method. We briefly compare these conditions below. 
 
 \begin{remark} \label{remark:chabcondition}
 %Now, $T$ is a scheme of relative dimension $g+\rho-1$ over $\spec \oh_{K, \mathfrak{p}_i}=\spec \Z_p$ and thus $\rank_{\Z_p} T(\oh_{K, p})=(g+\rho-1)d$. The open subscheme $U$ of $C$ has relative dimension $1$ over $\spec \oh_{K, \mathfrak{p}_i}=\spec \Z_p$ and thus $\rank_{\Z_p} U(\oh_{K, p})=d$ so that the codimension of $\tilde{j}_b^U(U(\oh_{K, p}))$ in $T(\oh_{K, p})$ is equal to $(g+\rho-2)d$. It results from \S \ref{s:closure} that the closure $\overline{T(\oh_K)_t}^p$ is of dimension at most $\delta(\rho-1)+r$. Thus, a necessary condition for the intersection (\ref{intersection}) to be finite is $\delta(\rho-1)+r\leq (g+\rho-2)d$ which is equivalent to the condition
@@ -1238,7 +1238,7 @@ The term geometric distinguishes our condition from the {\it Chabauty condition}
 %    \end{equation}
 
     \begin{itemize}
-        \item When $K=\Q$ the condition (\ref{eq:chabbound}) becomes $$r\leq g+\rho-2,$$ which is the same condition as found in \cite{EL19}.
+        \item When $K=\Q$, the condition (\ref{eq:chabbound}) becomes $$r\leq g+\rho-2,$$ which is the same condition as found in \cite{EL19}.
         \item In \cite{siksek} the classical Chabauty method was extended to arbitrary number fields. The method is expected to be successful when $$r\leq (g-1)d.$$ Hence the geometric quadratic Chabauty method is expected to go beyond the classical Chabauty method.
         \item In the recent work  of \cite{BBBM19}, the authors extend the method of quadratic Chabauty (as part Kim's program) for hyperelliptic curves to number fields, and relax the condition of \cite{siksek} above to the following (see \cite[(1.4)]{BBBM19})
         $$ r \le (g-1) d + r_2 + 1. $$
@@ -1353,7 +1353,7 @@ u \arrow[r, mapsto, "j_b"] \arrow[ru, mapsto, "\tilde j_b^U"]  & j_b (u) &
 \quad  \quad
 \begin{tikzcd}[column sep = 1em]
  & \TT (\oh_K)_t \subset \TT(\oh_K)_{j_b(u)} \arrow[d] \\ 
-\U(\oh_K)_u \arrow[r, hook, "j_b"] \arrow[ru, hook, "\tilde j_b^U"]  & \J(\oh_K)_{j_b(u)}
+\U(\oh_K)_u \arrow[r, hook, "j_b"] \arrow[ru, hook, "\tilde j_b^U"]  & \J(\oh_K)_{j_b(u)}.
 \end{tikzcd}
 \] 
 \end{itemize}
@@ -1365,14 +1365,14 @@ The first step is the construction of a map
 \[ 
 D : \J(\oh_K)_0 \simeq \Z^r \lra \TT(\oh_K)_{j_b(u)}
 \]
-in terms of the biextension laws. This is similar to the construction in \cite[\S 4]{EL19} though we have to use the $\G_m$ action on the Poincar\'e torsor in a more crucial way. We carry out this step in detail and point out differences compared to \cite{EL19} along the way. As a starting point, let us choose points $P_{i, j}, R_{i}, S_{j} \in \P^{\times, \rho-1}(\oh_K)$ lifting the following points of $\J \times (\Jo)^{\rho-1}(\oh_K):$ 
+in terms of the biextension laws. This is similar to the construction in \cite[\S 4]{EL19}, though we have to use the $\G_m$ action on the Poincar\'e torsor in a more crucial way. We carry out this step in detail and point out differences compared to \cite{EL19} along the way. As a starting point, let us choose points $P_{i, j}, R_{i}, S_{j} \in \P^{\times, \rho-1}(\oh_K)$ lifting the following points of $\J \times (\Jo)^{\rho-1}(\oh_K):$ 
 \begin{align*}
 P_{i, j} &\longmapsto \Big(x_i,\, \underline{f}(hmx_j)\Big)=\Big(x_i,\, hm\underline{f}(x_j)\Big),\\
 R_{i} &\longmapsto \Big(x_i,\, ({hm\cdot}\circ \tr_{\underline{c}}\circ \underline{f})(x_{\tilde{t}})\Big),\\
 S_{j} &\longmapsto \Big(x_{\tilde{t}},\, \underline{f}(hmx_j)\Big)=\Big(x_{\tilde{t}},\, hm\underline{f}(x_j)\Big).
 \end{align*}
 Here $\underline{f}$ is given by the functions $f_i$ in Notation \ref{notation:f_i}. 
-Note that the points to be lifted are of the form $(*, h\cdot *)$, thus the existence of such lifts is guaranteed by Lemma \ref{lem:h}. Also note that unlike the situation of \cite{EL19}, these lifts are no longer defined up to a finite choice as they are parametrized by $\G_m^{\rho-1}(\oh_K)$. 
+Note that the points to be lifted are of the form $(*, h\cdot *)$, thus the existence of such lifts is guaranteed by Lemma \ref{lem:h}. Also note that unlike the situation of \cite{EL19}, these lifts are no longer defined up to a finite choice as they are now parametrized by $\G_m^{\rho-1}(\oh_K)$. 
 
 Given $\underline{n} \in \Z^{r}$, set
 $$A(\underline{n})={\sum}_{2, j}n_j \cdot_2 S_j,\;\;\;\; B(\underline{n})={\sum}_{1, i}n_i \cdot_1 R_i,\;\;\;\; C(\underline{n})={\sum}_{1, i}n_i \cdot_1 \left( {\sum}_{2, j}n_j \cdot_2 P_{i, j} \right)$$
@@ -1461,7 +1461,7 @@ respectively. The $\overline{\oh_{K, p}}^{\times,\rho-1}$-torsors obtained from 
 $$A(q^*\underline{n})=q^{*}\cdot_2 A(\underline{n})=1,  \qquad B(q^*\underline{n})=q^{*}\cdot_1 B(\underline{n})=1, \qquad U_{k, l}(q^*\underline{n})=q^*\cdot_2U_{k, l}(\underline{n})=1 $$
 as elements of $\overline{\oh_{K, p}}^{\times, \rho-1}.$ Finally, for $C$ we have
 $$C(q^*\underline{n})=q^*\cdot_1\left({\sum}_{1, i}n_i \cdot_1 \left({\sum}_{2, j}q^*n_j\cdot_2 P_{i, j}\right)\right)=1.$$
-Putting this together we obtain
+Putting these together, we obtain
 $$D(q^*\underline{n})=(1+_21)+_1(1+_2t)=t$$ 
 (note the clash of additive and multiplicative notations). Therefore, we have
 $$E(q^*\underline{m}, q^*\underline{n})=q^* \cdot_2\left({\sum}_{2, k, l}m_{k, l}\cdot_2U_{k, l}(q^*\underline{n})\right)+_2 D(q^*\underline{n})=1+_2t=t\;.$$ 
@@ -1487,7 +1487,7 @@ Denote also by $\iota$ the induced map $\G_m^{\rho-1}(\overline{\oh_{K, p}})\rig
 
 Since the action of $\G_m^{\rho-1}(\overline{\oh_{K, p}})$ on $\TT(\overline{\oh_{K, p}})_{j_b(u)}$(= fiber of ${\TT(\overline{\oh_{K, p}})}$ containing $t$) is simply transitive, it follows that each $\iota(\G_m^{\rho-1}(\overline{\oh_{K, p}}))$-orbit of $\TT(\oh_{K, p})_{j_b(u)}$ contains a unique point from $\TT(\oh_{K, p})_t$. This shows the existence and uniqueness of $\xi(\underline{m}, \underline{n})$ in (2) by considering the point $E(\underline{m}, \underline{n})$ viewed inside  $\TT(\oh_{K, p})_{j_b(u)}$ via the canonical map ${\TT(\oh_K) \hookrightarrow \TT(\oh_{K, p})}$. 
 
-The strategy for defining $E'$ is to modify the choices of the initial points in the construction of $E$. Note that the images $\overline{P_{i, j}}, \overline{R_i}, \overline{S_j}$ in ${\P^{\times, \rho-1}(\overline{\oh_{K, p}})}$ lie over points of the form $(0, *), (0, *)$ and $(*, 0)$ respectively. The fibers over these points are canonically isomorphic to $\G_m^{\rho-1}(\overline{\oh_{K, p}})=\overline{\oh_{K, p}}^{\times, \rho-1}$ (by the discussion in \S \ref{S:PoincareTorsor}). Thus, the neutral element $1$ in these fibers makes sense, and, for example, there is a unique $\xi_{i, j} \in \G_m^{\rho-1}(\overline{\oh_{K, p}})$  such that $\xi_{i, j}\overline{P_{i, j}}=1$; then we set $P'_{i, j}=\iota(\xi_{i, j})P_{i, j}.$ One obtains the points $R'_i, S'_j \in \P^{\times, \rho-1}(\oh_{K, p})$ in a similar fashion. Likewise, we make modifications to the points $V_{k, l}$ and $W_{k, l, i}$ in the same fashion.\footnote{Alternatively, one can multiply the chosen basis of the torsion-free part of $\oh_K$-units $u_1, \dots, u_{\delta}$ by suitable roots of unity (of prime-to-$p$ order) in $\oh_{K, p}$ so that the resulting units are congruent to $1$ mod $p\oh_{K, p}$. }
+The strategy for defining $E'$ is to modify the choices of the initial points in the construction of $E$. Note that the images $\overline{P_{i, j}}, \overline{R_i}, \overline{S_j}$ in ${\P^{\times, \rho-1}(\overline{\oh_{K, p}})}$ lie over points of the form $(0, *), (0, *)$ and $(*, 0)$ respectively. The fibers over these points are canonically isomorphic to $\G_m^{\rho-1}(\overline{\oh_{K, p}})=\overline{\oh_{K, p}}^{\times, \rho-1}$ (by the discussion in \S \ref{S:PoincareTorsor}). Thus, it makes sense to consider the neutral elements $1$ in these fibers. For example, there is a unique $\xi_{i, j} \in \G_m^{\rho-1}(\overline{\oh_{K, p}})$  such that $\xi_{i, j}\overline{P_{i, j}}=1$; then we set $P'_{i, j}=\iota(\xi_{i, j})P_{i, j}.$ One obtains the points $R'_i, S'_j \in \P^{\times, \rho-1}(\oh_{K, p})$ in a similar fashion. Likewise, we modify the points $V_{k, l}$ and $W_{k, l, i}$ in the same fashion.\footnote{Alternatively, one can multiply the chosen basis of the torsion-free part of $\oh_K$-units $u_1, \dots, u_{\delta}$ by suitable roots of unity (of prime-to-$p$ order) in $\oh_{K, p}$ so that the resulting units are congruent to $1$ mod $p\oh_{K, p}$. }
 
 Using these points, one can define the terms $A'(\underline{n}), B'(\underline{n}), C'(\underline{n}),$ etc. as in the definition of $E(\underline{m}, \underline{n})$. Denote by $E'(\underline{m}, \underline{n})$ the result of this process. A formal computation similar to the proof of Proposition~\ref{prop:q-1-kills} then shows that $E'(\underline{m}, \underline{n}) \in \TT(\oh_{K, p})_{t}$ for all $(\underline{m},\underline{n}) \in \Z^{\delta(\rho-1)+r}$. This proves (1). 
 
@@ -1495,7 +1495,7 @@ Finally, since $E'(\underline{m}, \underline{n})$ was obtained by the same opera
 for some $\xi(\underline{m}, \underline{n}) \in \iota(\G_m^{\rho-1}(\overline{\oh_{K, p}}))$. Using the uniqueness part of (2), this proves the indicated equality in (2).
 \end{proof}
 
-It remains to prove
+It remains to prove the following proposition.
 \begin{proposition} \label{prop:modify-E-by-local-units2}
 \begin{enumerate}
 \item We have the following inclusions 
@@ -1532,7 +1532,7 @@ The point $x$ factors through the natural map $\spec{\widehat{\oh_{X, x}}} \righ
 and after dividing by $\pi$, one gets
 \begin{equation} \label{eq:tilde_t} \tilde{t}=\left(\frac{t_1}{\pi}, \frac{t_2}{\pi}, \dots, \frac{t_m}{\pi}\right):X(\oh_{K, \mathfrak{p}})_x \stackrel{\simeq}{\longrightarrow}  (\oh_{K, \mathfrak{p}})^{m}\;.
 \end{equation} 
-Now let $f: X \rightarrow Y$ be a morphism of schemes that are smooth over $\oh_{K, \mathfrak{p}}$ of relative dimensions $m$ and $n$, resp. Denote the analogous choice of a regular system of parameters at $Y$ by $s_1, s_2, \dots, s_{n}$ and the corresponding bijection by $\tilde{s}: Y(\oh_{K, \mathfrak{p}})_{f(x)} \rightarrow (\oh_{K, \mathfrak{p}})^{n}$. Our immediate goal is the following.
+Now let $f: X \rightarrow Y$ be a morphism of schemes that are smooth over $\oh_{K, \mathfrak{p}}$ of relative dimensions $m$ and $n$, respectively. Denote the analogous choice of a regular system of parameters at $Y$ by $s_1, s_2, \dots, s_{n}$ and the corresponding bijection by $\tilde{s}: Y(\oh_{K, \mathfrak{p}})_{f(x)} \rightarrow (\oh_{K, \mathfrak{p}})^{n}$. Our immediate goal is the following.
 
 \begin{proposition}\label{prop:blowup}
 In the above setting, the composition $$f':(\oh_{K, \mathfrak{p}})^m\stackrel{\tilde{t}^{-1}}{\longrightarrow} X(\oh_{K, \mathfrak{p}})_x \stackrel{f}{\longrightarrow} Y(\oh_{K, \mathfrak{p}})_{f(x)} \stackrel{\tilde{s}}{\longrightarrow}(\oh_{K, \mathfrak{p}})^{n}$$
@@ -1562,7 +1562,7 @@ The map $\tilde{t}$ from (\ref{eq:tilde_t}) is just the morphism $\tilde{t}$ in 
 
 %The infinitesimal unique lifting property of the \'{e}tale map $t$ with respect to the pro-infinitesimal thickening $\spec{\mathbb{F}_{\mathfrak{p}}} \hookrightarrow \spec{\oh_{K, \mathfrak{p}}}$ implies that the induced map $t: X(\oh_{K, \mathfrak{p}})_x \rightarrow \mathbb{A}^d_{\oh_{K, \mathfrak{p}}}(\oh_{K, \mathfrak{p}})_0$ is bijective, and consequently, so is $\tilde{t}: \mathrm{Bl}_x^{(\pi)} X(\oh_{K, \mathfrak{p}}) \rightarrow \mathrm{Bl}_o^{(\pi)} \mathbb{A}^d_{\oh_{K,\mathfrak{p}}}(\oh_{K, \mathfrak{p}}).$ Since $\mathrm{Bl}_o^{(\pi)} \mathbb{A}^d_{\oh_{K,\mathfrak{p}}}=\spec \oh_{K, \mathfrak{p}}[\tilde{X}_1, \dots, \tilde{X}_d]$ is just the affine $d$-space over $\oh_{K,\mathfrak{p}}$ (where $\tilde{X}_i$ denotes $X_i/\pi$), we conclude that $\tilde{t}$ induces a bijection ${\tilde{t}: \mathrm{Bl}_x^{(\pi)} X(\oh_{K, \mathfrak{p}}) \rightarrow (\oh_{K, \mathfrak{p}})^d}$.
 
-The map $\tilde{t}_{\F_{\mathfrak{p}}}$, obtained from base-changing the diagram (\ref{blowup}) to $\F_{\mathfrak{p}}$, can be (non-canonically) interpreted as the tangent map at $x$ between the respective tangent spaces. In particular, it is an isomorphism. Since $\tilde{t}$ is \'{e}tale, $\tilde{t}$ is an isomorphism when base-changed to ${\oh_{K, \pi}/(\pi^j)}$ for every $j$. Denoting the rings of global functions of the (affine) schemes in question by $\oh(\mathrm{Bl}_x^{(\pi)} X), \oh(\mathrm{Bl}_o^{(\pi)} \mathbb{A}^m_{\oh_{K,\mathfrak{p}}}),$ resp., we infer that their $\pi$-adic (equivalently, $p$-adic) completions are the same, that is,
+The map $\tilde{t}_{\F_{\mathfrak{p}}}$, obtained from base-changing the diagram (\ref{blowup}) to $\F_{\mathfrak{p}}$, can be (non-canonically) interpreted as the tangent map at $x$ between the respective tangent spaces. In particular, it is an isomorphism. Since $\tilde{t}$ is \'{e}tale, $\tilde{t}$ is an isomorphism when base-changed to ${\oh_{K, \pi}/(\pi^j)}$ for every $j$. Denoting the rings of global functions of the (affine) schemes in question by $\oh(\mathrm{Bl}_x^{(\pi)} X), \oh(\mathrm{Bl}_o^{(\pi)} \mathbb{A}^m_{\oh_{K,\mathfrak{p}}}),$ respectively, we infer that their $\pi$-adic (equivalently, $p$-adic) completions are the same, that is,
 \begin{equation} \label{p-comp-iso}
 \widehat{\oh(\mathrm{Bl}_x^{(\pi)} X)} \simeq \widehat{\oh(\mathrm{Bl}_o^{(\pi)} \mathbb{A}^m_{\oh_{K,\mathfrak{p}}})}=\widehat{\oh_{K, \mathfrak{p}}[\tilde{X}_1, \dots, \tilde{X}_m]}=\oh_{K, \mathfrak{p}}\langle\tilde{X}_1, \dots, \tilde{X}_m \rangle,
 \end{equation}
@@ -1726,7 +1726,7 @@ By Corollary~\ref{cor:AllPrimesInterpolation} (1), both the operations
 
 \section{Bounding the rational points} \label{sec:bound}
 
-In this section we prove Theorem \ref{thm:main_rough_form} announced in \S \ref{s:method}, that is, to give a conditional upper bound on the size of the intersection $\U(\oh_{K, p})_u\cap \Y_t$.
+In this section we prove Theorem \ref{thm:main_rough_form}, which gives a conditional upper bound on the size of the intersection $\U(\oh_{K, p})_u\cap \Y_t$.
 %Consider a prime $\mathfrak{p}$ above $p$, where $p$ is as usual subject to Assumption \ref{passumption}. The scheme $J$ is smooth of relative dimension $g$ over $\oh_{K, \fp}$. 
 Let $\mathfrak{p}$ be a prime above $p$ as usual. As in \S \ref{s:interpolation}, we choose parameters $x_1^{\fp}, \ldots, x_g^{\fp}$ for $\J$ at the point $x_\fp:=j_b^U(u_\fp)$ as well as parameters $t_1^{\fp}, \ldots, t_{\rho-1}^{\fp}\in \oh_{\TT, t_{\fp}}$ such that 
 $$\pi_{\fp}, x_1^{\fp}, \ldots, x_g^{\fp}, t_1^{\fp}, \ldots, t_{\rho-1}^{\fp}$$ is a system of local parameters at $t_\fp$ for the smooth scheme $\TT$ over $\oh_{K, \fp}$ of relative dimension $g+\rho-1$. 
